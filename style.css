@@ -1,0 +1,296 @@
+body{
+    margin: 0;
+}
+/* header */
+header {
+    background-image: url(./images/vintage-bakery-image_1029473-177057.avif);
+    background-position: center center;
+    background-size:cover;
+    height: 100vh;
+    opacity: .9;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 50px;
+}
+header img {
+    width: 150px;
+    height: 40px;
+    margin-left: -80px;
+}
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-right: -80px;
+    padding-left: 150px;
+}
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight:500px;
+}
+header h3 {
+    margin-top: 120px;
+}
+header button {
+    padding: 15px 25px;
+    font-size: 20px;
+    margin-left: 50px;
+    color: white;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+header .btn1 {
+    background-color: burlywood;
+}
+header .btn2 {
+    background-color: transparent;
+}
+header h1::after {
+    content:"|";
+    animation-name: bak;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes bak {
+    0%{content: "|";}
+    8.5%{content: "B|";}
+    17%{content: "Ba|";}
+    25.5%{content: "Bak|";}
+    34%{content: "Bake|";}
+    42.5%{content: "Baker|";}
+    51%{content: "Bakery|";}
+    59.5%{content: "Baker|";}
+    68%{content: "Bake|";}
+    76.5%{content: "Bak|";}
+    85%{content: "Ba|";}
+    93%{content: "B|";}
+    100%{content: "|";}
+}
+header button:hover{
+    padding: 10px 20px;
+    font-size:25px;
+    background-color: rgba(4, 132, 136, 0.831);
+    transition-duration: .2s;
+}
+/* section one */
+.one {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    margin-top: 20px;
+}
+.one .L {
+    width: 40%;
+    padding-left: 20px;
+}
+.one img {
+    width: 500px;
+    height: 450px;
+}
+.one li img {
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+}
+.one .R {
+    width: 40%;
+    font-size: 23px;
+    padding-right: 50px;
+}
+.one ul{
+    list-style: none;
+}
+.one li {
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: 0 ;
+    padding-left: 50px;
+    line-height: 50px;
+}
+.one ul .lione{
+    background-image: url(./images/icon1.PNG);
+}
+.one ul .litwo{
+    background-image: url(./images/icon2.PNG);
+}
+.one ul .lithree{
+    background-image: url(./images/icon3.PNG);
+}
+.one ul .lifour{
+    background-image: url(./images/icon4.PNG);
+} 
+/* section two */
+.two {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 80vh;
+    background-color: beige;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.two .L{
+    width: 45%;
+    font-size: 23px;
+    padding-left: 100px;
+}
+.two .L h3{
+    margin-bottom: 70px;
+}
+.two .R {
+    width: 45%;
+    padding-left: 30px;
+}
+.two .R img{
+    width: 500px;
+    height: 450px;
+}
+/* section three */
+.three{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.three .B {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: calc(100%/3);
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.three .B img {
+    width: 400px;
+    height: 300px;
+}
+/* section four */
+.four{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: beige;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+}
+.four h3 {
+    margin-top: 90px;
+}
+.four .L {
+    width: 40%;
+    height: 80vh;
+}
+.four ul {
+    list-style: none;
+    line-height: 40px;
+}
+.four li {
+    background-repeat: no-repeat;
+    background-position: 0;
+    padding-left: 60px;
+    background-size: 45px 40px; 
+}
+
+.four .o {
+    background-image: url(./images/icon6.PNG);
+}
+.four .T {
+    background-image: url(./images/icon7.PNG);
+}
+.four .Th {
+    background-image: url(./images/icon8.PNG);
+}
+.four .fo {
+    background-image: url(./images/icon5.PNG);
+}
+/* section five */
+.five{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    opacity: .7;
+    color: white;
+}
+.five div {
+    width: 20%;
+}
+.five .on p {
+    opacity: .5;
+    padding-top: 10px;
+}
+.five .on h3 {
+    padding-right: 190px;
+}
+.five .tw {
+    line-height: 30px;
+}
+.five .tw li {
+    opacity: .5;
+    list-style: none;
+}
+.five .th {
+    line-height: 30px;
+}
+.five .th li {
+    opacity: .5;
+    list-style: none;
+}
+.five .fo {
+    line-height: 30px;
+}
+.five .fo li {
+    opacity: .5;
+    list-style: none;
+}
+.five h3 {
+    text-align: center;
+} 
+/* footer */
+footer {
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    color: white;
+    opacity: .8;
+    padding: 50px 0px; 
+}
+footer p {
+    margin-top: 20px;
+}
+footer i {
+    padding-top: 25px;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
